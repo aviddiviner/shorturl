@@ -22,9 +22,9 @@ allows you to pad the string if you want it to be a specific length.
 Sample Usage:
 
 ```
-import "shortcode"
-code := shortcode.EncodeID(12) // "LhKA"
-id := shortcode.DecodeID(code) // 12
+import "shorturl"
+code := shorturl.EncodeID(12) // "LhKA"
+id := shorturl.DecodeID(code) // 12
 ```
 
 Use the top-level functions of the module to use the default encoder settings.
